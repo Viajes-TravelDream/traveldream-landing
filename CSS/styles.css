@@ -198,3 +198,67 @@ h2 {
         height: 220px;
     }
 }
+
+
+/* estilo de destinos y precios */
+.pricing {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.table-container {
+    overflow-x: auto; /* permite scroll lateral en móviles */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #0077b6; /* TravelDream Blue */
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.price {
+    font-weight: bold;
+    color: #0077b6;
+    font-size: 1.1rem;
+}
+
+.btn-book {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+
+.btn-book:hover {
+    background-color: #264653;
+}
