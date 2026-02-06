@@ -193,6 +193,71 @@ h2 {
     transition: transform 0.3s ease;
 }
 
+.contact {
+    background-color: #FFF9C4;
+    padding: 50px 30px;
+    text-align: center;
+   
+    
+}
+.contact h2 {
+    font-family: 'monserrat'sans-serif;
+    font-size: 25px;
+}
+.contact-form {
+    max-width: 500px;
+   margin:auto;
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: 'Monserrat'sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-form button {
+    background-color:#14B8A6;
+    color:#fff;
+    font-family: 'Monserrat';
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background-color:#1E3A8A;
+}
+@media (max-width: 768px) {
+    .contact {
+        padding: 40px 20px;
+    }
+
+    .contact h2 {
+        font-size: 22px;
+    }
+
+    .contact-form button {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
 /* ANIMACIÓN del carrusel */
 @keyframes scroll {
     0% {
@@ -217,11 +282,7 @@ h2 {
     }
 }
 
-.products {
-    padding: 50px 30px;
-    background-color: #fde4ea;
-    text-align: center;
-}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .nav ul {
