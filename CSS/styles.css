@@ -235,3 +235,23 @@ h2 {
         height: 220px;
     }
 }
+<!-- INICIO RESEÑAS REALES - CARLA -->
+<section id="reseñas" class="reviews">
+
+<h2>Reseñas de nuestros viajeros</h2>
+
+<div class="reviews-container" id="reviewsContainer">
+</div>
+
+<form class="review-form" id="reviewForm">
+
+<input type="text" id="reviewName" placeholder="Tu nombre" required>
+
+<textarea id="reviewText" placeholder="Escribe tu reseña..." required></textarea>
+
+<button type="submit">Enviar reseña</button>
+
+</form>
+
+</section>
+<!-- FIN RESEÑAS REALES -->
