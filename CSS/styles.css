@@ -256,8 +256,6 @@ h2 {
 
 
 
-
-
 /* ANIMACIÓN del carrusel */
 @keyframes scroll {
     0% {
@@ -362,6 +360,11 @@ tr:hover {
     background-color: #264653;
 }
 /* RESEÑAAS */
+.reviews {
+    background-color: #FFF9C4;
+    padding: 60px 20px;
+}
+
 .review-form {
   margin-top: 50px;
   max-width: 400px;
