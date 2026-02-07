@@ -411,7 +411,7 @@ tr:hover {
 .review-form button {
   width: 100%;
   padding: 12px;
-  background: #0096c7;
+  background: #0096c#14b8a6;
   color: white;
   border: none;
   border-radius: 8px;
@@ -419,5 +419,5 @@ tr:hover {
 }
 
 .review-form button:hover {
-  background: #0077b6;
+  background: #1e3a8a;
 }
