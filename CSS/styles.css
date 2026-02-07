@@ -193,6 +193,71 @@ h2 {
     transition: transform 0.3s ease;
 }
 
+.contact {
+    background-color: #FFF9C4;
+    padding: 50px 30px;
+    text-align: center;
+   
+    
+}
+.contact h2 {
+    font-family: 'monserrat'sans-serif;
+    font-size: 25px;
+}
+.contact-form {
+    max-width: 500px;
+   margin:auto;
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: 'Monserrat'sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-form button {
+    background-color:#14B8A6;
+    color:#fff;
+    font-family: 'Monserrat';
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background-color:#1E3A8A;
+}
+@media (max-width: 768px) {
+    .contact {
+        padding: 40px 20px;
+    }
+
+    .contact h2 {
+        font-size: 22px;
+    }
+
+    .contact-form button {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
 /* ANIMACIÓN del carrusel */
 @keyframes scroll {
     0% {
@@ -217,11 +282,7 @@ h2 {
     }
 }
 
-.products {
-    padding: 50px 30px;
-    background-color: #fde4ea;
-    text-align: center;
-}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .nav ul {
@@ -235,23 +296,68 @@ h2 {
         height: 220px;
     }
 }
-<!-- INICIO RESEÑAS REALES - CARLA -->
-<section id="reseñas" class="reviews">
 
-<h2>Reseñas de nuestros viajeros</h2>
 
-<div class="reviews-container" id="reviewsContainer">
-</div>
+/* estilo de destinos y precios */
+.pricing {
+    padding: 50px 5%;
+    text-align: center;
+    background-color: #FFF9C4;
+}
 
-<form class="review-form" id="reviewForm">
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
 
-<input type="text" id="reviewName" placeholder="Tu nombre" required>
+.table-container {
+    overflow-x: auto; /* permite scroll lateral en móviles */
+}
 
-<textarea id="reviewText" placeholder="Escribe tu reseña..." required></textarea>
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
 
-<button type="submit">Enviar reseña</button>
+th, td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
 
-</form>
+th {
+    background-color: #0077b6; /* TravelDream Blue */
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
 
-</section>
-<!-- FIN RESEÑAS REALES -->
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.price {
+    font-weight: bold;
+    color: #0077b6;
+    font-size: 1.1rem;
+}
+
+.btn-book {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+
+.btn-book:hover {
+    background-color: #264653;
+}
