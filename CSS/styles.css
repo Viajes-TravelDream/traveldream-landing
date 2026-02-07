@@ -328,7 +328,7 @@ th, td {
 }
 
 th {
-    background-color: #0077b6; /* TravelDream Blue */
+    background-color: #14B8A6; /* TravelDream Blue */
     color: white;
     font-weight: 600;
     text-transform: uppercase;
@@ -346,7 +346,7 @@ tr:hover {
 }
 
 .btn-book {
-    background-color: #2a9d8f;
+    background-color: #14B8A6;
     color: white;
     border: none;
     padding: 8px 15px;
@@ -357,7 +357,7 @@ tr:hover {
 }
 
 .btn-book:hover {
-    background-color: #264653;
+    background-color: #1E3A8A;
 }
 /* RESEÑAAS */
 .reviews {
